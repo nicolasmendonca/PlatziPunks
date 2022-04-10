@@ -73,6 +73,5 @@ module.exports = {
 		],
 		'react/prop-types': 'off',
 		'react/self-closing-comp': 'error',
-		'sort-keys': ['warn', 'asc', { caseSensitive: true, minKeys: 2, natural: false }],
 	},
 };

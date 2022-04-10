@@ -1,9 +1,16 @@
+import { Box } from '@chakra-ui/react';
 import React from 'react';
 
-import TodoApp from '../components/TodoApp';
+import Home from '../views/home';
 
 const IndexPage: React.FC = () => {
-	return <TodoApp />;
+	return (
+		<Box>
+			<Box p={4}>
+				<Home />
+			</Box>
+		</Box>
+	);
 };
 
 export default IndexPage;
